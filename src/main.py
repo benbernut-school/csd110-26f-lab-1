@@ -9,6 +9,7 @@ password = input()
 
 login = username + password
 
+#going through the username and password entering process
 print("Please enter your USERNAME")
 while input() != username:
     print("Incorrect try again!")
